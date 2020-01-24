@@ -1,0 +1,324 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Montana State Library</origin>
+        <pubdate>20190411</pubdate>
+        <title>Montana Public Lands</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Helena, Montana</pubplace>
+          <publish>Montana State Library</publish>
+        </pubinfo>
+        <onlink>ftp://ftp.geoinfo.msl.mt.gov/Data/Spatial/MSDI/Cadastral/PublicLands/</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The Montana Public Lands data contains public administered lands that are recorded in the Montana Department of Revenue's tax appraisal database. Each public land polygon is attributed with the name of the public agency that owns it. The data are derived from the statewide Montana Cadastral Parcel layer.</abstract>
+      <supplinf>This data set is a work in progress; it contains errors of omission and errors in current attributes. Areas where the data are particularly weak include city and county lands (errors of omission ), BIA trust lands (many unrecorded transfers to and from private land status.) and lands in and adjacent to the western boundary of Glacier National Park. Please note that this dataset contains information on surface status only. The dataset contains no information about ownership or status of the mineral estate.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20190411</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>Continually</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-116.178571</westbc>
+        <eastbc>-103.611130</eastbc>
+        <northbc>49.180871</northbc>
+        <southbc>44.237720</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Public Ownership</themekey>
+        <themekey>Land Ownership</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>boundaries</themekey>
+        <themekey>planningCadastre</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Montana</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The Montana State Library Geographic Information Services provides this product/service for informational purposes only. The Library did not produce it for, nor is it suitable for legal, engineering, or surveying purposes. Consumers of this information should review or consult the primary data and information sources to ascertain the viability of the information for their purposes. The Library provides these data in good faith but does not represent or warrant its accuracy, adequacy, or completeness. In no event shall the Library be liable for any incorrect results or analysis; any direct, indirect, special, or consequential damages to any party; or any lost profits arising out of or in connection with the use or the inability to use the data or the services provided. The Library makes these data and services available as a convenience to the public, and for no other purpose. The Library reserves the right to change or revise published data and/or services at any time.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Montana State Library</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>P.O. Box 201800</address>
+          <city>Helena</city>
+          <state>MT</state>
+          <postal>59620</postal>
+        </cntaddr>
+        <cntvoice>(406) 444-5354</cntvoice>
+        <cnttdd>(406) 444-4799</cnttdd>
+        <cntfax>(406) 444-0266</cntfax>
+        <cntemail>geoinfo@mt.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.5.1.7333</native>
+  </idinfo>
+  <dataqual>
+    <complete>This data set is a work in progress; it contains errors of omission and errors in current attributes. Data are updated as information becomes available. Delays between changes in land status and their inclusion in this layer can vary from a few weeks to over a year depending on the source of the information. This data contains errors of omission and errors in current attributes. Areas where the data are particularly weak include city and county lands (errors of omission - these parcels are coded as private) and BIA trust lands (many unrecorded transfers to and from private land status.)</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The Public Lands Data is based on the Bureau of Land Management's Geographic Coordinate Database (GCDB). The BLM collects the GCDB Public Lands Survey System data on a township basis. The survey boundaries are delineated by computing the geographic positions of township, section, aliquot part, government lot, and special survey corners. Horizontal control positions from published sources and geographic positioning system (GPS) observations are added and the GCDB grid is adjusted using the least squares method of adjustment to determine the best geographic positions for the survey points. Horizontal Accuracy varies throughout the data: Scale is dependant on the positional accuracy of the GCDB. Note: Original MTNHP Stewardship Data was basically compiled from 1:100,000 scale (100K) data with a horizontal accuracy of approximately 170 feet. This data came from the BLM 100K Public Land Survey and Ownership layers digitized from BLM 100K Surface Management Status maps in 1995-1996.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Montana State Library</origin>
+            <title>Montana Cadastral Mapping Project</title>
+            <pubinfo>
+              <pubplace>Helena; Montana</pubplace>
+              <publish>Montana State Library</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srccitea>Montana Cadastral Mapping Project</srccitea>
+      </srcinfo>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>27482</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 StatePlane Montana FIPS 2500</mapprojn>
+          <lambertc>
+            <stdparll>45.0</stdparll>
+            <stdparll>49.0</stdparll>
+            <longcm>-109.5</longcm>
+            <latprjo>44.25</latprjo>
+            <feast>600000.0</feast>
+            <fnorth>0.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.00015625</absres>
+            <ordres>0.00015625</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Cadastral.DBO.PublicLands</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OWNER</attrlabl>
+        <attrdomv>
+          <edom>
+            <edomv>30</edomv>
+            <edomvd>Local Government</edomvd>
+          </edom>
+          <edom>
+            <edomv>22</edomv>
+            <edomvd>Montana Fish, Wildlife, and Parks</edomvd>
+          </edom>
+          <edom>
+            <edomv>32</edomv>
+            <edomvd>City Government</edomvd>
+          </edom>
+          <edom>
+            <edomv>15</edomv>
+            <edomvd>US Forest Service</edomvd>
+          </edom>
+          <edom>
+            <edomv>31</edomv>
+            <edomvd>County Government</edomvd>
+          </edom>
+          <edom>
+            <edomv>10</edomv>
+            <edomvd>US Government</edomvd>
+          </edom>
+          <edom>
+            <edomv>14</edomv>
+            <edomvd>National Park Service</edomvd>
+          </edom>
+          <edom>
+            <edomv>18</edomv>
+            <edomvd>US Dept of Defense</edomvd>
+          </edom>
+          <edom>
+            <edomv>24</edomv>
+            <edomvd>Montana Dept of Corrections</edomvd>
+          </edom>
+          <edom>
+            <edomv>11</edomv>
+            <edomvd>US Bureau of Land Management</edomvd>
+          </edom>
+          <edom>
+            <edomv>16</edomv>
+            <edomvd>US Dept of Agriculture</edomvd>
+          </edom>
+          <edom>
+            <edomv>23</edomv>
+            <edomvd>Montana University System</edomvd>
+          </edom>
+          <edom>
+            <edomv>26</edomv>
+            <edomvd>Montana Dept of Natural Resources Water Projects</edomvd>
+          </edom>
+          <edom>
+            <edomv>25</edomv>
+            <edomvd>Montana Dept of Transportation</edomvd>
+          </edom>
+          <edom>
+            <edomv>12</edomv>
+            <edomvd>US Bureau of Reclamation</edomvd>
+          </edom>
+          <edom>
+            <edomv>13</edomv>
+            <edomvd>US Fish and Wildlife Service</edomvd>
+          </edom>
+          <edom>
+            <edomv>1000</edomv>
+          </edom>
+          <edom>
+            <edomv>20</edomv>
+            <edomvd>State of Montana</edomvd>
+          </edom>
+          <edom>
+            <edomv>21</edomv>
+            <edomvd>Montana State Trust Lands</edomvd>
+          </edom>
+          <edom>
+            <edomv>40</edomv>
+            <edomvd>Bureau of Indian Affairs Trust Land</edomvd>
+          </edom>
+          <edom>
+            <edomv>17</edomv>
+            <edomvd>US Army Corps of Engineers</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Acreage</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape.STArea()</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape.STLength()</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Montana State Library</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>P.O. Box 201800</address>
+          <city>Helena</city>
+          <state>MT</state>
+          <postal>59620</postal>
+        </cntaddr>
+        <cntvoice>(406) 444-5354</cntvoice>
+        <cnttdd>(406) 444-4799</cnttdd>
+        <cntfax>(406) 444-0266</cntfax>
+        <cntemail>geoinfo@mt.gov</cntemail>
+        <cntinst>Contact via email</cntinst>
+      </cntinfo>
+    </distrib>
+    <distliab>The user of this data agrees to release the Base Map Services\Montana State Library (BMS\MSL); its officers; directors; agents; employees; and those acting on its behalf from all debts; claims; and liability of any kind arising out of or in connection with the use of the data. Please be aware that these data are constantly being changed and updated. Rather than distribute the data to second parties; please refer interested parties to BMS\MSL for the most recent version of the data. These data do not imply public access to any lands. This data set is provided "as-is" without warranty of any kind. BMS\MSL makes no representations or warranties whatsoever with respect to the accuracy or completeness of this data set and assumes no responsibility for the suitability of this data set for a particular purpose; and MTNHP will not be liable for any damages incurred as a result of errors in this data set.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ESRI Personal Geodatabase</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>ftp://ftp.geoinfo.msl.mt.gov/Data/Spatial/MSDI/Cadastral/PublicLands/</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20190411</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Montana State Library</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>P.O. Box 201800</address>
+          <city>Helena</city>
+          <state>MT</state>
+          <postal>59620</postal>
+        </cntaddr>
+        <cntvoice>(406) 444-5354</cntvoice>
+        <cnttdd>(406) 444-4799</cnttdd>
+        <cntfax>(406) 444-0266</cntfax>
+        <cntemail>geoinfo@mt.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
